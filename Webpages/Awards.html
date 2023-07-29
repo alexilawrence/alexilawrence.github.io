@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Awards</title>
+        <link rel="stylesheet" href="Journey.css">
+    </head>
+    <body>
+        <div class=nav> <!== making navbar>
+            <p class=name>Alexi Lawrence</p>
+            <a href="Contact.html">Contact</a>
+            <a class=currentPage><span style="color:white">Awards</span></a>
+            <a href="Participations.html">Participations</a>
+            <a href="Academics.html">Academics</a>
+            <a href="AboutMe.html">About Me</a>
+			<a href='../index.html'>Home</a>
+        </div>
+
+        <a id="#top">
+        <div class=title>
+            <p>Awards</p>
+        </div>
+
+        <div class=text>
+            <p style="padding-top: 30px;">
+                Below, you will find a list of awards I have received over the years, 
+                both inside and outside of TJ. 
+            </p>
+            <br>
+            <p>2017 (Tanjong Katong Primary School</p>
+            <ul>
+                <li>Edusave Certificate of Academic Achievement</li>
+                <li>Edusave Award for Achievement, Good Leadership and Service (EAGLES)</li>
+            </ul>
+            <br>
+            <p>2019 (Temasek Secondary School)</p>
+            <ul>
+                <li>Edusave Certificate of Academic Achievement</li>
+                <li>SYF Distinction</li>
+            </ul>
+            <br>
+            <p>2020 (Temasek Secondary School)</p>
+            <ul>
+                <li>Edusave Certificate of Academic Achievement</li>
+                <li>Top in Standard for Economics</li>
+                <li>Education Merit Award</li>
+                <li>Outstanding Student Award</li>
+            </ul>
+            <br>
+            <p>2021 (Temasek Secondary School)</p>
+            <ul>
+                <li>Edusave Award for Achievement, Good Leadership and Service (EAGLES)</li>
+                <li>Edusave Scholarship</li>
+                <li>Edusave Character Award (ECHA)</li>
+                <li>Outstanding Student Award</li>
+            </ul>
+            <br>
+            <p>2022 (Temasek Junior College)</p>
+            <ul>
+                <li>Meritorious Award (From Temasek Secondary School)</li>
+            </ul>
+            <br>
+            <p>2023 (Temasek Junior College)</p>
+            <ul>
+                <li>SYF Distinction</li>
+                <li>Unique Project Award - Better.SG</li>
+                <li>Singapore Physics League - Bronze</li>
+            </ul>
+        </div>
+
+
+
+        
+        <div>
+			<button class=toggleDark onclick="myFunction()"><img src="../Images/dark-modified2.png" alt="toggleDark"></button>
+			<script>
+				function myFunction() {
+					var heading = document.getElementsByClassName("heading");
+					var title = document.getElementsByClassName("title");
+					var text = document.getElementsByClassName("text");
+					var element = document.body;
+					var link = document.getElementsByClassName("link");
+					
+					element.classList.toggle("dark")
+					for(const texts of text){
+						texts.classList.toggle("darkText")
+					}
+					for(const headings of heading){
+						headings.classList.toggle("darkHeading")
+					}
+					for(const links of link){
+						links.classList.toggle("darkLink")
+					}
+					for(const titles of title){
+						titles.classList.toggle("darkTitle");
+					}
+				}
+			</script>
+		</div>
+		<div class=arrow>
+			<a class=link href='#top'><img src="../Images/upArrow2.png" alt="to top"></a> 
+		</div>
+
+    </body>
+</html>
