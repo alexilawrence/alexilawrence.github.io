@@ -90,9 +90,9 @@ html {
 
 .arrow img {
 	position: fixed;
-	right: 5px;
-	bottom:8px;
-	width: 45px;
+	right: 15px;
+	bottom: 8px;
+	width: 65px;
 	
 }
 
@@ -104,9 +104,9 @@ button {
 
 .toggleDark img {
 	position: fixed;
-	right: 5px;
-	bottom: 70px;
-	width: 45px;
+	right: 15px;
+	bottom: 84px;
+	width: 65px;
 }
 
 
