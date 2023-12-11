@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 1291px) {
+@media screen and (min-width: 500px) {
 	.nav {
 		overflow: hidden;
 		background-color: #303030;
@@ -160,7 +160,7 @@
 
 
 
-@media screen and (max-width: 1290px) 
+@media screen and (max-width: 499px) 
 {
 
 .disappear{
